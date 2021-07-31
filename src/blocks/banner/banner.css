@@ -3,8 +3,25 @@
 	min-height: 357px;
 	background-color: #86D3F4;
 	position: absolute;
-	top: 220px;
+	/* top: 220px;
+	right: 0; */
+	top: -357px;
 	right: 0;
 
-	z-index: 2;
+	z-index: 3;
+
+	/* visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visibility 0s 1s; */
+	/* transform: translate(0, 50%); */
+	animation: translate 2s linear normal forwards;
+}
+
+@keyframes translate {
+	from {
+		transform: translate(0px);
+	}
+	to {
+			transform: translate(0px, 570px);
+	}
 }

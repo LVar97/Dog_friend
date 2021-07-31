@@ -6,7 +6,8 @@
 	font-size: 32px;
 	line-height: 37px;
 	text-transform: uppercase;
-
+	background: #86D3F4;
+	border: none;
 	color: #000000;
-	margin: 0 auto;
+	margin: 0 60px;
 }

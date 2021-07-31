@@ -3,4 +3,9 @@
 	min-height: 720px;
 	margin: 0 auto;
 	position: relative;
+	background-image: url('../../image/scale_1200\ 1.png');
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visibility 0s 1s;
 }

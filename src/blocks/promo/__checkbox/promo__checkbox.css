@@ -2,4 +2,5 @@
 	margin: 33px auto 13px;
 	max-width: 284px;
 	min-height: 52px;
+	display: flex;
 }
