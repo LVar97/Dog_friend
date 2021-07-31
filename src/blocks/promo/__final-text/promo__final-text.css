@@ -1,5 +1,8 @@
-.banner__subtitle{
-	font-family: 'Roboto';
+.promo__final-text{
+	max-width: 284px;
+	min-height: 32px;
+	margin: 0 auto;
+
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -7,7 +10,4 @@
 	text-align: center;
 
 	color: #000000;
-	margin: 6px auto 20px;
-
-	max-width: 126px;
 }

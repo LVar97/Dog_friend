@@ -4,4 +4,6 @@
 	margin: 0 auto;
 	background-image: url('../../image/video.png');
 	position: relative;
+
+	font-family: 'Roboto', sans-serif;
 }

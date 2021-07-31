@@ -1,0 +1,14 @@
+.promo__final-title{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+
+	max-width: 284px;
+	min-height: 76px;
+	margin: 265px auto 15px;
+}
