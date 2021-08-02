@@ -1,5 +1,5 @@
 .promo__input{
-	max-width: 239px;
+	max-width: 266px;
 	min-height: 38px;
 	font-style: normal;
 	font-weight: bold;
@@ -9,5 +9,6 @@
 	background: #86D3F4;
 	border: none;
 	color: #000000;
-	margin: 0 60px;
+	margin: 0 55px;
+	text-align: center;
 }

@@ -5,8 +5,10 @@
 	position: absolute;
 	/* top: 220px;
 	right: 0; */
-	top: -357px;
-	right: 0;
+	/* top: -357px;
+	right: 0; */
+	top: 220px;
+	right: -251px;
 
 	z-index: 3;
 
@@ -14,7 +16,7 @@
 	opacity: 0;
 	transition: opacity 1s, visibility 0s 1s; */
 	/* transform: translate(0, 50%); */
-	animation: translate 2s linear normal forwards;
+	animation: translate 1s linear normal forwards;
 }
 
 @keyframes translate {
@@ -22,6 +24,6 @@
 		transform: translate(0px);
 	}
 	to {
-			transform: translate(0px, 570px);
+			transform: translate(-251px, 0px);
 	}
 }

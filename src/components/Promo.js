@@ -1,25 +1,46 @@
+import React from 'react';
+import Button from "./Button";
+import InputMask from 'react-input-mask';
+
 function Promo(props){
 
-	function onclickNumber(){}
-	function deleteNumber(){}
+	const [tel, setTel] = React.useState(['+7']);
+
+	function handleChangeTel(e) {
+    setTel(e.target.value);
+  }
+
+	function handleBtnClick(item){
+		if (item === 'Стереть'){
+			tel.pop(tel.length);
+			if(tel.length >= 1){
+				setTel([...tel])
+			}
+		} else if( tel.length === 11){
+			console.log('err to much numbers', tel.length)
+		} else{
+			setTel([...tel ,item])
+		}
+  }
 
 	return(
 		<div className="promo">
 			<h1 className="promo__title">Введите ваш номер мобильного телефона</h1>
-			<input type="tel" className="promo__input" value="+7(___)___-__-__"></input>
+			<InputMask 
+			className="promo__input" 
+			mask="+7(999)999-99-99"
+			name="phone"
+			value={tel}
+			onChange={handleChangeTel}
+			maskChar="_"
+			required
+			/>
 			<p className="promo__text">и с Вами свяжется наш менеждер для дальнейшей консультации</p>
 			<div className="promo__keyboard">
-        <button onClick={onclickNumber} className="promo__keyboard_btn">1</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">2</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">3</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">4</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">5</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">6</button>
-				<button onClick={onclickNumber} className="promo__keyboard_btn">7</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">8</button>
-        <button onClick={onclickNumber} className="promo__keyboard_btn">9</button>
-				<button onClick={deleteNumber} className="promo__keyboard_reset">Стереть</button>
-				<button onClick={onclickNumber} className="promo__keyboard_btn">0</button>
+			{props.buttons.map((buttonValue, index) => (
+				<Button key={index} value={buttonValue} onButtonClick={handleBtnClick}/>
+				
+			))}
     	</div>
 			<div className="promo__checkbox">
 				<input type="checkbox" className="promo__check" />
