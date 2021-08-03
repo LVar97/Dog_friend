@@ -14,7 +14,6 @@ function Main(props){
 			buttons={buttons}
 			onHandleBtnClick={props.onButtonClick}
 			name={props.name}
-			setTel={props.setTel}
       check={props.check}
       onCheck={props.onHandleCheck}
 			/>

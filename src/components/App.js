@@ -34,7 +34,6 @@ function App() {
     
     const btnAgree = document.querySelector('.promo__btn');
 		if ( check !== true || mobile !== true) {
-      console.log(check , mobile)
       btnAgree.setAttribute('disabled', true);
 			btnAgree.classList.add('promo__btn_disabled');
 		}else if(check === true && mobile === true){
@@ -46,7 +45,6 @@ function App() {
 	function validatePhoneNumber (number) {
     
 		const isValidPhoneNumber = validator.isMobilePhone(number, 'ru-RU', 'strictMode' );
-    console.log(isValidPhoneNumber)
 		const checkBox = document.querySelector('.promo__checkbox');
     const errMessage = document.querySelector('.promo__err');
 
@@ -89,7 +87,6 @@ function App() {
       onCloseMain={closeMain}
       isOpen={main}
       name={tel}
-      setTel={setTel}
       check={check}
       onHandleCheck={handleCheck}
       onButtonClick={handleBtnClick}
