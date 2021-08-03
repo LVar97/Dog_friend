@@ -1,7 +1,6 @@
 import qrCode from "../image/qr-code.svg";
 
 function Banner(props){
-	console.log(props)
 
 	return(
 		<div className="banner">

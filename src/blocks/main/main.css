@@ -6,6 +6,7 @@
 	background-image: url('../../image/scale_1200\ 1.png');
 	
 	visibility: hidden;
+	/* display: none; */
 	opacity: 0;
 	transition: opacity 1s, visibility 0s 1s;
 }

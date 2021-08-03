@@ -1,0 +1,13 @@
+.promo__err{
+	color: red;
+	text-transform: uppercase;
+	max-width: 284px;
+
+	/* visibility: visible; */
+	display: flex;
+	z-index: 6;
+	margin: 13px 48px;
+	min-height: 52px;
+	justify-content: center;
+	align-items: center;
+}

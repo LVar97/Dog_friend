@@ -27,8 +27,14 @@
 @import url('./blocks/promo/__keyboard/_reset/promo__keyboard_reset.css');
 @import url('./blocks/promo/__input/promo__input.css');
 @import url('./blocks/promo/__checkbox/promo__checkbox.css');
+@import url('./blocks/promo/__checkbox/_hidden/promo__checkbox_hidden.css');
+@import url('./blocks/promo/__final/promo__final.css');
+@import url('./blocks/promo/__final/_opened/promo__final_opened.css');
 @import url('./blocks/promo/__final-title/promo__final-title.css');
 @import url('./blocks/promo/__final-text/promo__final-text.css');
 @import url('./blocks/promo/__check/promo__check.css');
 @import url('./blocks/promo/__check/_text/promo__check_text.css');
 @import url('./blocks/promo/__btn/promo__btn.css');
+@import url('./blocks/promo/__btn/_disabled/promo__btn_disabled.css');
+@import url('./blocks/promo/__err/promo__err.css');
+@import url('./blocks/promo/__err/_hidden/promo__err_hidden.css');

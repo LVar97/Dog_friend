@@ -1,0 +1,6 @@
+.promo__final{
+	/* display: none; */
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visibility 0s 1s;
+}

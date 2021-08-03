@@ -2,8 +2,7 @@
 	width: 284px;
 	height: 52px;
 	margin-left: 48px;
-	border: 1px solid #4E4E4E;
-	background-color: #86D3F4;
+	background-color: #000000;
 
 	font-style: normal;
 	font-weight: 500;
@@ -12,5 +11,5 @@
 	text-align: center;
 	text-transform: uppercase;
 
-	color: #4E4E4E;
+	color: #FFFFFF;
 }

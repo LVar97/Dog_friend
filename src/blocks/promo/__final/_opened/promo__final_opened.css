@@ -1,8 +1,9 @@
-.main_opened{
-	visibility: visible;
+.promo__final_opened{
 	/* display: block; */
+	visibility: visible;
+	margin: 0 auto;
+  width: 380px;
 	opacity: 1;
 		
 	transition: opacity 1s, visibility 0s;
-	z-index: 6;
 }
