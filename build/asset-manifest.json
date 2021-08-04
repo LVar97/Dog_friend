@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/LVar97/Dog_friend/static/css/main.b96ac37e.chunk.css",
-    "main.js": "/LVar97/Dog_friend/static/js/main.3cde5056.chunk.js",
-    "main.js.map": "/LVar97/Dog_friend/static/js/main.3cde5056.chunk.js.map",
-    "runtime-main.js": "/LVar97/Dog_friend/static/js/runtime-main.828ccdeb.js",
-    "runtime-main.js.map": "/LVar97/Dog_friend/static/js/runtime-main.828ccdeb.js.map",
-    "static/js/2.1dc2e8bf.chunk.js": "/LVar97/Dog_friend/static/js/2.1dc2e8bf.chunk.js",
-    "static/js/2.1dc2e8bf.chunk.js.map": "/LVar97/Dog_friend/static/js/2.1dc2e8bf.chunk.js.map",
-    "static/js/3.14eccda7.chunk.js": "/LVar97/Dog_friend/static/js/3.14eccda7.chunk.js",
-    "static/js/3.14eccda7.chunk.js.map": "/LVar97/Dog_friend/static/js/3.14eccda7.chunk.js.map",
-    "index.html": "/LVar97/Dog_friend/index.html",
-    "static/css/main.b96ac37e.chunk.css.map": "/LVar97/Dog_friend/static/css/main.b96ac37e.chunk.css.map",
-    "static/js/2.1dc2e8bf.chunk.js.LICENSE.txt": "/LVar97/Dog_friend/static/js/2.1dc2e8bf.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/LVar97/Dog_friend/static/media/video.b85f57d1.png",
-    "static/media/qr-code.9aa4972f.svg": "/LVar97/Dog_friend/static/media/qr-code.9aa4972f.svg"
+    "main.css": "/Dog_friend/static/css/main.478a5eb8.chunk.css",
+    "main.js": "/Dog_friend/static/js/main.3cde5056.chunk.js",
+    "main.js.map": "/Dog_friend/static/js/main.3cde5056.chunk.js.map",
+    "runtime-main.js": "/Dog_friend/static/js/runtime-main.b21e04e6.js",
+    "runtime-main.js.map": "/Dog_friend/static/js/runtime-main.b21e04e6.js.map",
+    "static/js/2.1dc2e8bf.chunk.js": "/Dog_friend/static/js/2.1dc2e8bf.chunk.js",
+    "static/js/2.1dc2e8bf.chunk.js.map": "/Dog_friend/static/js/2.1dc2e8bf.chunk.js.map",
+    "static/js/3.14eccda7.chunk.js": "/Dog_friend/static/js/3.14eccda7.chunk.js",
+    "static/js/3.14eccda7.chunk.js.map": "/Dog_friend/static/js/3.14eccda7.chunk.js.map",
+    "index.html": "/Dog_friend/index.html",
+    "static/css/main.478a5eb8.chunk.css.map": "/Dog_friend/static/css/main.478a5eb8.chunk.css.map",
+    "static/js/2.1dc2e8bf.chunk.js.LICENSE.txt": "/Dog_friend/static/js/2.1dc2e8bf.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Dog_friend/static/media/video.b85f57d1.png",
+    "static/media/qr-code.9aa4972f.svg": "/Dog_friend/static/media/qr-code.9aa4972f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.828ccdeb.js",
+    "static/js/runtime-main.b21e04e6.js",
     "static/js/2.1dc2e8bf.chunk.js",
-    "static/css/main.b96ac37e.chunk.css",
+    "static/css/main.478a5eb8.chunk.css",
     "static/js/main.3cde5056.chunk.js"
   ]
 }
