@@ -1,0 +1,53 @@
+.promo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 380px;
+	min-height: 720px;
+	background: rgba(218, 210, 196, 0.64);
+	flex-direction: column;
+}
+
+.promo__final{
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visibility 0s 1s;
+}
+
+.promo__final_opened{
+	visibility: visible;
+	margin: 0 auto;
+  width: 380px;
+	opacity: 1;
+		
+	transition: opacity 1s, visibility 0s;
+	z-index: 10;
+}
+
+.promo__final-title{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+
+	max-width: 284px;
+	min-height: 76px;
+}
+
+.promo__final-text{
+	max-width: 234px;
+	min-height: 32px;
+	margin: 0 auto;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+
+	color: #000000;
+}

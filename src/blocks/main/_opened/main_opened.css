@@ -1,8 +1,0 @@
-.main_opened{
-	visibility: visible;
-	/* display: block; */
-	opacity: 1;
-		
-	transition: opacity 1s, visibility 0s;
-	z-index: 6;
-}
