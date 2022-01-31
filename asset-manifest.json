@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dog_friend/static/css/main.cd1828bf.chunk.css",
+    "main.js": "/Dog_friend/static/js/main.0dd66552.chunk.js",
+    "main.js.map": "/Dog_friend/static/js/main.0dd66552.chunk.js.map",
+    "runtime-main.js": "/Dog_friend/static/js/runtime-main.a6052975.js",
+    "runtime-main.js.map": "/Dog_friend/static/js/runtime-main.a6052975.js.map",
+    "static/js/2.31bfeb1a.chunk.js": "/Dog_friend/static/js/2.31bfeb1a.chunk.js",
+    "static/js/2.31bfeb1a.chunk.js.map": "/Dog_friend/static/js/2.31bfeb1a.chunk.js.map",
+    "static/js/3.43cabbb1.chunk.js": "/Dog_friend/static/js/3.43cabbb1.chunk.js",
+    "static/js/3.43cabbb1.chunk.js.map": "/Dog_friend/static/js/3.43cabbb1.chunk.js.map",
+    "index.html": "/Dog_friend/index.html",
+    "static/css/main.cd1828bf.chunk.css.map": "/Dog_friend/static/css/main.cd1828bf.chunk.css.map",
+    "static/js/2.31bfeb1a.chunk.js.LICENSE.txt": "/Dog_friend/static/js/2.31bfeb1a.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/Dog_friend/static/media/Roboto-Regular.a8d6ac03.ttf",
+    "static/media/Main.css": "/Dog_friend/static/media/dog.e0fb1888.jpeg",
+    "static/media/qr-code.9aa4972f.svg": "/Dog_friend/static/media/qr-code.9aa4972f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6052975.js",
+    "static/js/2.31bfeb1a.chunk.js",
+    "static/css/main.cd1828bf.chunk.css",
+    "static/js/main.0dd66552.chunk.js"
+  ]
+}
