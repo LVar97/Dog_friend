@@ -5,7 +5,8 @@
 	position: absolute;
 	top: 220px;
 	right: -500px;
-
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	z-index: 3;
 
 	animation: translate 1s linear 5s normal forwards;
