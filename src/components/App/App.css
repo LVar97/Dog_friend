@@ -1,0 +1,51 @@
+.page{
+	max-width: 2400px;
+	height: 100vh;
+	margin: 0 auto;
+	background-image: url('../../image/dog.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+.page__titles{
+	margin-top: 150px;
+	margin-left: 70px;
+} 
+
+.page__titles_disabled{
+	display: none;
+} 
+
+.titles{
+	font-size: 36px;
+	color: #216B81;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 50px;
+	max-width: 500px;
+	opacity: 0;
+}
+
+.titles__item:first-of-type{
+	animation: opacity 2s linear normal forwards;
+}
+
+.titles__item:nth-of-type(2){
+	animation: opacity 2s linear 2s normal forwards;
+}
+
+.titles__item:nth-of-type(3){
+	animation: opacity 2s linear 3s normal forwards;
+}
+
+.titles__item:nth-of-type(4){
+	animation: opacity 2s linear 4s normal forwards;
+}
+
+@keyframes opacity {
+	from { opacity: 0 }
+	to { opacity: 1 }
+}
